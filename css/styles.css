@@ -11108,3 +11108,24 @@ footer.footer .social-link:hover {
   font-size: 2.25rem;
   box-shadow: 0 3px 3px 0 rgba(0, 0, 0, 0.1);
 }
+
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+}
+
+.text-container {
+  margin-bottom: 20px; /* Add space between the text and QR code */
+}
+
+.qr-code {
+  max-width: 150px; /* Adjust the size as needed */
+  height: auto;
+}
+
+.btn-xl {
+  display: inline-block;
+  margin-top: 10px; /* Add some top margin to separate from the text */
+}

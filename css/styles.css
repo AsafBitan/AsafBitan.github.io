@@ -11042,6 +11042,8 @@ footer.footer .social-link:hover {
 }
 .portfolio-item .caption {
   display: flex;
+  justify-content: center;
+  align-items: center;
   height: 100%;
   width: 100%;
   background-color: rgba(33, 37, 41, 0.2);
@@ -11052,6 +11054,7 @@ footer.footer .social-link:hover {
 }
 .portfolio-item .caption .caption-content {
   color: #fff;
+  text-align: center;
   margin: auto 2rem 2rem;
 }
 .portfolio-item .caption .caption-content h2, .portfolio-item .caption .caption-content .h2 {

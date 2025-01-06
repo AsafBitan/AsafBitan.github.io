@@ -1,124 +1,263 @@
 <!DOCTYPE html>
 <html lang="en">
-    <head>
-        <meta charset="utf-8" />
-        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
-        <meta name="description" content="" />
-        <meta name="author" content="" />
-        <title>Asaf Bitan</title>
-        <!-- Favicon-->
-        <link rel="icon" type="image/x-icon" href="assets/favicon.ico" />
-        <!-- Font Awesome icons (free version)-->
-        <script src="https://use.fontawesome.com/releases/v6.3.0/js/all.js" crossorigin="anonymous"></script>
-        <!-- Simple line icons-->
-        <link href="https://cdnjs.cloudflare.com/ajax/libs/simple-line-icons/2.5.5/css/simple-line-icons.min.css" rel="stylesheet" />
-        <!-- Google fonts-->
-        <link href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,700,300italic,400italic,700italic" rel="stylesheet" type="text/css" />
-        <!-- Core theme CSS (includes Bootstrap)-->
-        <link href="css/styles.css" rel="stylesheet" />
-    </head>
-    <body id="page-top">
-        <!-- Navigation-->
-        <a class="menu-toggle rounded" href="#"><i class="fas fa-bars"></i></a>
-        <nav id="sidebar-wrapper">
-            <ul class="sidebar-nav">
-                <li class="sidebar-brand"><a href="#page-top">Asaf Bitan</a></li>
-                <li class="sidebar-nav-item"><a href="#page-top">Home</a></li>
-                <li class="sidebar-nav-item"><a href="#about">About</a></li>
-                <li class="sidebar-nav-item"><a href="#Programming-Proficiencies">Proficiencies</a></li>
-                <li class="sidebar-nav-item"><a href="#portfolio">Portfolio</a></li>
-                <li class="sidebar-nav-item"><a href="#contact">Contact</a></li>
-            </ul>
-        </nav>
-        <!-- Header-->
-        <header class="masthead d-flex align-items-center">
-            <div class="container px-4 px-lg-5 text-center">
-                <h3 class="mb-1">Hello! My name is</h3>
-                <h1 class="mb-1">Asaf Bitan</h1>
-                <h3 class="mb-5"><em>and I am a Computer science graduate</em></h3>
-                <a class="btn btn-primary btn-xl" href="#about">Find Out More</a>
-            </div>
-        </header>
-        <!-- About-->
-        <section class="content-section bg-light" id="about">
-            <div class="container px-4 px-lg-5 text-center">
-                <div class="row justify-content-center ">
-                    <div class="col-lg-10 text-start">
-                        <h2>A little about me:</h2>
-                        <p class="lead mb-3">
-                            Hello! I'm a <strong>Computer Science graduate from Ben-Gurion University</strong>, with only two courses left to complete my degree.
-                            Throughout my academic journey, I've developed a deep passion for software development, honing my skills in creating efficient, innovative solutions to complex problems.   
-                            I’m excited to begin my professional journey and am actively seeking a  <strong>junior developer position</strong> where I can contribute my technical expertise and creativity. 
-                            I thrive in collaborative environments, quickly adapt to new challenges, and am committed to delivering meaningful results.
-                        </p>
-                        <p class="lead mb-3">
-                            Let’s work together to build something extraordinary!
-                        </p>
-                        
-                        <p class="lead mb-3">
-                            Age: <strong>27</strong><br>
-                            Email: <strong>asafbitan9@gmail.com</strong><br>
-                            Phone: <strong>+972-54-664-9656</strong><br>
-                        </p>
-                    </div>
+  <head>
+    <meta charset="utf-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1, shrink-to-fit=no"
+    />
+    <meta name="description" content="" />
+    <meta name="author" content="" />
+    <title>Asaf Bitan</title>
+    <!-- Favicon-->
+    <link rel="icon" type="image/x-icon" href="assets/favicon.ico" />
+    <!-- Font Awesome icons (free version)-->
+    <script
+      src="https://use.fontawesome.com/releases/v6.3.0/js/all.js"
+      crossorigin="anonymous"
+    ></script>
+    <!-- Simple line icons-->
+    <link
+      href="https://cdnjs.cloudflare.com/ajax/libs/simple-line-icons/2.5.5/css/simple-line-icons.min.css"
+      rel="stylesheet"
+    />
+    <!-- Google fonts-->
+    <link
+      href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,700,300italic,400italic,700italic"
+      rel="stylesheet"
+      type="text/css"
+    />
+    <!-- Core theme CSS (includes Bootstrap)-->
+    <link href="css/styles.css" rel="stylesheet" />
+    <script>
+      (function () {
+        if (!window.chatbase || window.chatbase("getState") !== "initialized") {
+          window.chatbase = (...arguments) => {
+            if (!window.chatbase.q) {
+              window.chatbase.q = [];
+            }
+            window.chatbase.q.push(arguments);
+          };
+          window.chatbase = new Proxy(window.chatbase, {
+            get(target, prop) {
+              if (prop === "q") {
+                return target.q;
+              }
+              return (...args) => target(prop, ...args);
+            },
+          });
+        }
+        const onLoad = function () {
+          const script = document.createElement("script");
+          script.src = "https://www.chatbase.co/embed.min.js";
+          script.id = "N6FFJHNl8yo1_3s6U5Yql";
+          script.domain = "www.chatbase.co";
+          document.body.appendChild(script);
+        };
+        if (document.readyState === "complete") {
+          onLoad();
+        } else {
+          window.addEventListener("load", onLoad);
+        }
+      })();
+    </script>
+  </head>
+  <body id="page-top">
+    <!-- Navigation-->
+    <a class="menu-toggle rounded" href="#"><i class="fas fa-bars"></i></a>
+    <nav id="sidebar-wrapper">
+      <ul class="sidebar-nav">
+        <li class="sidebar-brand"><a href="#page-top">Asaf Bitan</a></li>
+        <li class="sidebar-nav-item"><a href="#page-top">Home</a></li>
+        <li class="sidebar-nav-item"><a href="#about">About</a></li>
+        <li class="sidebar-nav-item">
+          <a href="#Programming-Proficiencies">Proficiencies</a>
+        </li>
+        <li class="sidebar-nav-item"><a href="#portfolio">Portfolio</a></li>
+        <li class="sidebar-nav-item"><a href="#contact">Contact</a></li>
+      </ul>
+    </nav>
+    <!-- Header-->
+    <header class="masthead d-flex align-items-center">
+      <div class="container px-4 px-lg-5 text-center">
+        <h3 class="mb-1">Hello! My name is</h3>
+        <h1 class="mb-1">Asaf Bitan</h1>
+        <h3 class="mb-5"><em>and I am a Computer science graduate</em></h3>
+        <a class="btn btn-primary btn-xl" href="#about">Find Out More</a>
+      </div>
+    </header>
+    <!-- About-->
+    <section class="content-section bg-light" id="about">
+      <div class="container px-4 px-lg-5 text-center">
+        <div class="row justify-content-center">
+          <div class="col-lg-10 text-start">
+            <h2>A little about me:</h2>
+            <p class="lead mb-3">
+              Hello! I'm a
+              <strong
+                >Computer Science graduate from Ben-Gurion University</strong
+              >, with only two courses left to complete my degree. Throughout my
+              academic journey, I've developed a deep passion for software
+              development, honing my skills in creating efficient, innovative
+              solutions to complex problems. I’m excited to begin my
+              professional journey and am actively seeking a
+              <strong>junior developer position</strong> where I can contribute
+              my technical expertise and creativity. I thrive in collaborative
+              environments, quickly adapt to new challenges, and am committed to
+              delivering meaningful results.
+            </p>
+            <p class="lead mb-3">
+              Let’s work together to build something extraordinary!
+            </p>
 
-                    <div class="col-lg-5 text-center">
-                        <a class="btn btn-dark btn-xl" href="#Programming-Proficiencies">Programming Proficiencies</a>
-                    </div>
-                    
-                </div>
-            </div>
-        </section>
-        <!-- Programming-Proficiencies-->
-        <section class="content-section bg-primary text-white text-center" id="Programming-Proficiencies">
-            <div class="container px-4 px-lg-5">
-                <div class="content-section-heading">
-                    <h2 class="mb-5">Programming Proficiencies</h2>
-                </div>
-                <div class="row gx-4 gx-lg-5 justify-content-center">
-                    <div class="col-lg-8">
-                        <ul class="list-unstyled">
-                            <li class="mb-4">
-                                <strong>Languages:</strong>
-                                <img alt="Python" src="https://img.shields.io/badge/-Python-3776AB.svg?style=flat&logo=python&logoColor=white" height="30">
-                                <img alt="Java" src="https://img.shields.io/badge/-Java-007396.svg?style=flat&logo=java&logoColor=white" height="30">
-                                <img alt="JavaScript" src="https://img.shields.io/badge/-JavaScript-F7DF1E.svg?style=flat&logo=javascript&logoColor=black" height="30">
-                                <img alt="TypeScript" src="https://img.shields.io/badge/-TypeScript-3178C6.svg?style=flat&logo=typescript&logoColor=white" height="30">
-                                <img alt="C++" src="https://img.shields.io/badge/-C++-00599C.svg?style=flat&logo=c%2B%2B&logoColor=white" height="30">
-                                <img alt="C" src="https://img.shields.io/badge/-C-A8B9CC.svg?style=flat&logo=c&logoColor=white" height="30">
-                                <img alt="SQL" src="https://img.shields.io/badge/-SQL-4479A1.svg?style=flat&logo=mysql&logoColor=white" height="30">
-                            </li>
-                            <li class="mb-4">
-                                <strong>Web Development:</strong>
-                                <img alt="React" src="https://img.shields.io/badge/-React-61DAFB.svg?style=flat&logo=react&logoColor=black" height="30">
-                                <img alt="Node.js" src="https://img.shields.io/badge/-Node.js-339933.svg?style=flat&logo=node.js&logoColor=white" height="30">
-                                <img alt="Express.js" src="https://img.shields.io/badge/-Express.js-000000.svg?style=flat&logo=express&logoColor=white" height="30">
-                                <img alt="HTML" src="https://img.shields.io/badge/-HTML5-E34F26.svg?style=flat&logo=html5&logoColor=white" height="30">
-                                <img alt="CSS" src="https://img.shields.io/badge/-CSS3-1572B6.svg?style=flat&logo=css3&logoColor=white" height="30">
-                            </li>
-                            <li class="mb-4">
-                                <strong>Tools & Frameworks:</strong>
-                                <img alt="GitHub" src="https://img.shields.io/badge/-GitHub-181717.svg?style=flat&logo=github&logoColor=white" height="30">
-                                <img alt="Ubuntu" src="https://img.shields.io/badge/-Ubuntu-E95420.svg?style=flat&logo=ubuntu&logoColor=white" height="30">
-                                <img alt="Linux" src="https://img.shields.io/badge/-Linux-FCC624.svg?style=flat&logo=linux&logoColor=black" height="30">
-                            </li>
-                            <li class="mb-4">
-                                <strong>Concepts:</strong>
-                                <img alt="ML Modeling (AI)" src="https://img.shields.io/badge/-ML%20Modeling%20(AI)-FF6F00.svg?style=flat&logo=tensorflow&logoColor=white" height="30">
-                                <img alt="Multi-threading" src="https://img.shields.io/badge/-Multi--threading-007396.svg?style=flat" height="30">
-                                <img alt="Object-Oriented Programming" src="https://img.shields.io/badge/-OOP-00599C.svg?style=flat&logo=c%2B%2B&logoColor=white" height="30">
-                                <img alt="Design Patterns" src="https://img.shields.io/badge/-Design%20Patterns-1E90FF.svg?style=flat" height="30">
-                            </li>
-                            <li class="mb-4">
-                                <strong>Databases:</strong>
-                                <img alt="MongoDB" src="https://img.shields.io/badge/-MongoDB-47A248.svg?style=flat&logo=mongodb&logoColor=white" height="30">
-                            </li>
-                        </ul>
-                    </div>
-                </div>
-            </div>
-        </section>
-        <!-- Callout
+            <p class="lead mb-3">
+              Age: <strong>27</strong><br />
+              Email: <strong>asafbitan9@gmail.com</strong><br />
+              Phone: <strong>+972-54-664-9656</strong><br />
+            </p>
+          </div>
+
+          <div class="col-lg-5 text-center">
+            <a class="btn btn-dark btn-xl" href="#Programming-Proficiencies"
+              >Programming Proficiencies</a
+            >
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- Programming-Proficiencies-->
+    <section
+      class="content-section bg-primary text-white text-center"
+      id="Programming-Proficiencies"
+    >
+      <div class="container px-4 px-lg-5">
+        <div class="content-section-heading">
+          <h2 class="mb-5">Programming Proficiencies</h2>
+        </div>
+        <div class="row gx-4 gx-lg-5 justify-content-center">
+          <div class="col-lg-8">
+            <ul class="list-unstyled">
+              <li class="mb-4">
+                <strong>Languages:</strong>
+                <img
+                  alt="Python"
+                  src="https://img.shields.io/badge/-Python-3776AB.svg?style=flat&logo=python&logoColor=white"
+                  height="30"
+                />
+                <img
+                  alt="Java"
+                  src="https://img.shields.io/badge/-Java-007396.svg?style=flat&logo=java&logoColor=white"
+                  height="30"
+                />
+                <img
+                  alt="JavaScript"
+                  src="https://img.shields.io/badge/-JavaScript-F7DF1E.svg?style=flat&logo=javascript&logoColor=black"
+                  height="30"
+                />
+                <img
+                  alt="TypeScript"
+                  src="https://img.shields.io/badge/-TypeScript-3178C6.svg?style=flat&logo=typescript&logoColor=white"
+                  height="30"
+                />
+                <img
+                  alt="C++"
+                  src="https://img.shields.io/badge/-C++-00599C.svg?style=flat&logo=c%2B%2B&logoColor=white"
+                  height="30"
+                />
+                <img
+                  alt="C"
+                  src="https://img.shields.io/badge/-C-A8B9CC.svg?style=flat&logo=c&logoColor=white"
+                  height="30"
+                />
+                <img
+                  alt="SQL"
+                  src="https://img.shields.io/badge/-SQL-4479A1.svg?style=flat&logo=mysql&logoColor=white"
+                  height="30"
+                />
+              </li>
+              <li class="mb-4">
+                <strong>Web Development:</strong>
+                <img
+                  alt="React"
+                  src="https://img.shields.io/badge/-React-61DAFB.svg?style=flat&logo=react&logoColor=black"
+                  height="30"
+                />
+                <img
+                  alt="Node.js"
+                  src="https://img.shields.io/badge/-Node.js-339933.svg?style=flat&logo=node.js&logoColor=white"
+                  height="30"
+                />
+                <img
+                  alt="Express.js"
+                  src="https://img.shields.io/badge/-Express.js-000000.svg?style=flat&logo=express&logoColor=white"
+                  height="30"
+                />
+                <img
+                  alt="HTML"
+                  src="https://img.shields.io/badge/-HTML5-E34F26.svg?style=flat&logo=html5&logoColor=white"
+                  height="30"
+                />
+                <img
+                  alt="CSS"
+                  src="https://img.shields.io/badge/-CSS3-1572B6.svg?style=flat&logo=css3&logoColor=white"
+                  height="30"
+                />
+              </li>
+              <li class="mb-4">
+                <strong>Tools & Frameworks:</strong>
+                <img
+                  alt="GitHub"
+                  src="https://img.shields.io/badge/-GitHub-181717.svg?style=flat&logo=github&logoColor=white"
+                  height="30"
+                />
+                <img
+                  alt="Ubuntu"
+                  src="https://img.shields.io/badge/-Ubuntu-E95420.svg?style=flat&logo=ubuntu&logoColor=white"
+                  height="30"
+                />
+                <img
+                  alt="Linux"
+                  src="https://img.shields.io/badge/-Linux-FCC624.svg?style=flat&logo=linux&logoColor=black"
+                  height="30"
+                />
+              </li>
+              <li class="mb-4">
+                <strong>Concepts:</strong>
+                <img
+                  alt="ML Modeling (AI)"
+                  src="https://img.shields.io/badge/-ML%20Modeling%20(AI)-FF6F00.svg?style=flat&logo=tensorflow&logoColor=white"
+                  height="30"
+                />
+                <img
+                  alt="Multi-threading"
+                  src="https://img.shields.io/badge/-Multi--threading-007396.svg?style=flat"
+                  height="30"
+                />
+                <img
+                  alt="Object-Oriented Programming"
+                  src="https://img.shields.io/badge/-OOP-00599C.svg?style=flat&logo=c%2B%2B&logoColor=white"
+                  height="30"
+                />
+                <img
+                  alt="Design Patterns"
+                  src="https://img.shields.io/badge/-Design%20Patterns-1E90FF.svg?style=flat"
+                  height="30"
+                />
+              </li>
+              <li class="mb-4">
+                <strong>Databases:</strong>
+                <img
+                  alt="MongoDB"
+                  src="https://img.shields.io/badge/-MongoDB-47A248.svg?style=flat&logo=mongodb&logoColor=white"
+                  height="30"
+                />
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- Callout
         <section class="callout">
             <div class="container px-4 px-lg-5 text-center">
                 <h2 class="mx-auto mb-5">
@@ -129,106 +268,157 @@
                 <a class="btn btn-primary btn-xl" href="https://startbootstrap.com/theme/stylish-portfolio/">Download Now!</a>
             </div>
         </section> -->
-        <!--Portfolio -->
-        <section class="content-section" id="portfolio">
-            <div class="container px-4 px-lg-5">
-                <div class="content-section-heading text-center">
-                    <h3 class="text-secondary mb-0">Portfolio</h3>
-                    <h2 class="mb-5">Recent Projects</h2>
+    <!--Portfolio -->
+    <section class="content-section" id="portfolio">
+      <div class="container px-4 px-lg-5">
+        <div class="content-section-heading text-center">
+          <h3 class="text-secondary mb-0">Portfolio</h3>
+          <h2 class="mb-5">Recent Projects</h2>
+        </div>
+        <div class="row gx-0">
+          <div class="col-lg-6">
+            <a class="portfolio-item" href="#!">
+              <div class="caption">
+                <div class="caption-content">
+                  <div class="h2">Blackjack Game</div>
+                  <p class="mb-0">A simple blackjack game using java</p>
                 </div>
-                <div class="row gx-0">
-                    <div class="col-lg-6">
-                        <a class="portfolio-item" href="#!">
-                            <div class="caption">
-                                <div class="caption-content">
-                                    <div class="h2">Blackjack Game</div>
-                                    <p class="mb-0">A simple blackjack game using java</p>
-                                </div>
-                            </div>
-                            <img class="img-fluid" src="assets/img/portfolio-1.jpg" alt="..." />
-                        </a>
-                    </div>
-                    <div class="col-lg-6">
-                        <a class="portfolio-item" href="#!">
-                            <div class="caption">
-                                <div class="caption-content">
-                                    <div class="h2">Recipes-App</div>
-                                    <p class="mb-0">A full-stack web application using next.js, React and Spoonacular API, that gives you recipe recommendation using the ingredients you have at hand</p>
-                                </div>
-                            </div>
-                            <img class="img-fluid" src="assets/img/portfolio-2.jpg" alt="..." />
-                        </a>
-                    </div>
-                    <div class="col-lg-6">
-                        <a class="portfolio-item" href="#!">
-                            <div class="caption">
-                                <div class="caption-content">
-                                    <div class="h2">Movie Recommendation</div>
-                                    <p class="mb-0">A Python based movie recommendation system using collaborative filtering with Pandas. It uses user similarity calculations to provide personalized movie suggestions</p>
-                                </div>
-                            </div>
-                            <img class="img-fluid" src="assets/img/portfolio-3.jpg" alt="..." />
-                        </a>
-                    </div>
-                    <div class="col-lg-6">
-                        <a class="portfolio-item" href="#!">
-                            <div class="caption">
-                                <div class="caption-content">
-                                    <div class="h2">Workspace</div>
-                                    <p class="mb-0">A yellow workspace with some scissors, pencils, and other objects.</p>
-                                </div>
-                            </div>
-                            <img class="img-fluid" src="assets/img/portfolio-4.jpg" alt="..." />
-                        </a>
-                    </div>
+              </div>
+              <img
+                class="img-fluid"
+                src="assets/img/portfolio-1.jpg"
+                alt="..."
+              />
+            </a>
+          </div>
+          <div class="col-lg-6">
+            <a class="portfolio-item" href="#!">
+              <div class="caption">
+                <div class="caption-content">
+                  <div class="h2">Recipes-App</div>
+                  <p class="mb-0">
+                    A full-stack web application using next.js, React and
+                    Spoonacular API, that gives you recipe recommendation using
+                    the ingredients you have at hand
+                  </p>
                 </div>
-            </div>
-        </section>
-        <!-- Contact Me -->
-        <section class="content-section bg-primary text-white" id="contact">
-            <div class="container px-4 px-lg-5 text-center">
-                <h3 class="mb-4">Contact Me</h3>
-                <h1 class="mb-4">Let’s Connect!</h1>
-                <div class="text-container">
-                    <p class="lead mb-3">
-                        If you would like to discuss further, feel free to contact me.<br>
-                        You can also reach out to me via email, WhatsApp, or phone.<br>
-                        Looking forward to hearing from you!
-                    </p>
-                    <p class="lead mb-3">
-                        Email: <strong>asafbitan9@gmail.com</strong><br>
-                        Phone: <strong>+972-54-664-9656</strong><br>
-                        WhatsApp:
-                    </p>
-                    <a class="btn btn-xl btn-light mt-4" href="https://wa.me/+972546649656">Click here to get in contact using WhatsApp!</a>
+              </div>
+              <img
+                class="img-fluid"
+                src="assets/img/portfolio-2.jpg"
+                alt="..."
+              />
+            </a>
+          </div>
+          <div class="col-lg-6">
+            <a class="portfolio-item" href="#!">
+              <div class="caption">
+                <div class="caption-content">
+                  <div class="h2">Movie Recommendation</div>
+                  <p class="mb-0">
+                    A Python based movie recommendation system using
+                    collaborative filtering with Pandas. It uses user similarity
+                    calculations to provide personalized movie suggestions
+                  </p>
                 </div>
-                <img src="assets/img/whatsAppQR.jpg" alt="Contact QR Code" class="qr-code">
-            </div>
-        </section>
-        <!-- Footer-->
-        <footer class="footer text-center">
-            <div class="container px-4 px-lg-5">
-                <h4>Asaf Bitan</h4>
-                <h6>Computer Science student at Ben-Gurion University</h6>
-                <ul class="list-inline mb-5">
-                    <li class="list-inline-item">
-                        <a class="social-link rounded-circle text-white mr-3" href="www.linkedin.com/in/asaf-bitan-027a09276"><i class="fab fa-linkedin-in"></i></a>
-                    </li>
-                    <li class="list-inline-item">
-                        <a class="social-link rounded-circle text-white mr-3" href="https://wa.me/+972546649656"><i class="fab fa-whatsapp"></i></a>
-                    </li>
-                    <li class="list-inline-item">
-                        <a class="social-link rounded-circle text-white mr-3" href="https://github.com/AsafBitan"><i class="fab fa-github"></i></a>
-                    </li>
-                </ul>
-                <p class="text-muted small mb-0">Copyright &copy; Developed By Asaf Bitan</p>
-            </div>
-        </footer>
-        <!-- Scroll to Top Button-->
-        <a class="scroll-to-top rounded" href="#page-top"><i class="fas fa-angle-up"></i></a>
-        <!-- Bootstrap core JS-->
-        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"></script>
-        <!-- Core theme JS-->
-        <script src="js/scripts.js"></script>
-    </body>
+              </div>
+              <img
+                class="img-fluid"
+                src="assets/img/portfolio-3.jpg"
+                alt="..."
+              />
+            </a>
+          </div>
+          <div class="col-lg-6">
+            <a class="portfolio-item" href="#!">
+              <div class="caption">
+                <div class="caption-content">
+                  <div class="h2">Workspace</div>
+                  <p class="mb-0">
+                    A yellow workspace with some scissors, pencils, and other
+                    objects.
+                  </p>
+                </div>
+              </div>
+              <img
+                class="img-fluid"
+                src="assets/img/portfolio-4.jpg"
+                alt="..."
+              />
+            </a>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- Contact Me -->
+    <section class="content-section bg-primary text-white" id="contact">
+      <div class="container px-4 px-lg-5 text-center">
+        <h3 class="mb-4">Contact Me</h3>
+        <h1 class="mb-4">Let’s Connect!</h1>
+        <div class="text-container">
+          <p class="lead mb-3">
+            If you would like to discuss further, feel free to contact me.<br />
+            You can also reach out to me via email, WhatsApp, or phone.<br />
+            Looking forward to hearing from you!
+          </p>
+          <p class="lead mb-3">
+            Email: <strong>asafbitan9@gmail.com</strong><br />
+            Phone: <strong>+972-54-664-9656</strong><br />
+            WhatsApp:
+          </p>
+          <a
+            class="btn btn-xl btn-light mt-4"
+            href="https://wa.me/+972546649656"
+            >Click here to get in contact using WhatsApp!</a
+          >
+        </div>
+        <img
+          src="assets/img/whatsAppQR.jpg"
+          alt="Contact QR Code"
+          class="qr-code"
+        />
+      </div>
+    </section>
+    <!-- Footer-->
+    <footer class="footer text-center">
+      <div class="container px-4 px-lg-5">
+        <h4>Asaf Bitan</h4>
+        <h6>Computer Science student at Ben-Gurion University</h6>
+        <ul class="list-inline mb-5">
+          <li class="list-inline-item">
+            <a
+              class="social-link rounded-circle text-white mr-3"
+              href="www.linkedin.com/in/asaf-bitan-027a09276"
+              ><i class="fab fa-linkedin-in"></i
+            ></a>
+          </li>
+          <li class="list-inline-item">
+            <a
+              class="social-link rounded-circle text-white mr-3"
+              href="https://wa.me/+972546649656"
+              ><i class="fab fa-whatsapp"></i
+            ></a>
+          </li>
+          <li class="list-inline-item">
+            <a
+              class="social-link rounded-circle text-white mr-3"
+              href="https://github.com/AsafBitan"
+              ><i class="fab fa-github"></i
+            ></a>
+          </li>
+        </ul>
+        <p class="text-muted small mb-0">
+          Copyright &copy; Developed By Asaf Bitan
+        </p>
+      </div>
+    </footer>
+    <!-- Scroll to Top Button-->
+    <a class="scroll-to-top rounded" href="#page-top"
+      ><i class="fas fa-angle-up"></i
+    ></a>
+    <!-- Bootstrap core JS-->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"></script>
+    <!-- Core theme JS-->
+    <script src="js/scripts.js"></script>
+  </body>
 </html>
